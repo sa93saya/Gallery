@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<!--
+Created using JS Bin
+http://code.h5jun.com
+
+Copyright (c) 2018 by anonymous (//code.h5jun.com/hixe/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width">
+  <title>Gallery</title>
+
+<style id="jsbin-css">
+/* 填写初始CSS代码 */
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+body {
+    background-color: #DEDEDE;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+#content{
+    
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+img{
+    width: 300px;
+    margin: 20px;
+    display: block;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(62, 177, 62);
+}
+#navbar li{
+    display: inline;
+}
+#navbar li a{
+    float: right;
+    font-size: 24px;
+    margin: 0 10px;
+    line-height: 50px;
+    text-decoration:none;
+    color: #fff;
+}
+
+#navbar li:nth-child(4) a {
+    text-decoration:underline;
+    color: pink;
+}
+#navbar li a:visited {
+    text-decoration:underline;
+    color: #2a5f00;
+}
+
+#navbar li a:hover {
+    text-decoration:underline;
+    color: red;
+}
+#navbar li a:active {
+    color: blue;
+}
+.describe{
+    width: 300px;
+    background-color: #fff;
+    margin-left:20px;
+    padding-left:20px;
+    margin-top:-20px; 
+}
+
+</style>
+</head>
+<body>
+    <nav>
+        <ul id="navbar">
+            <li><a href="javascript:void(0);">Help</a></li>
+            <li><a href="javascript:void(0);">Contact</a></li>
+            <li><a href="javascript:void(0);">Gallery</a></li>
+            <li><a href="javascript:void(0);">Home</a></li>
+        </ul>
+    </nav>
+    <div>
+    <ul id="content">
+        <li><img src="http://img2.imgtn.bdimg.com/it/u=2546717774,3910079056&fm=200&gp=0.jpg">
+            <div class="describe">Image Caption 1</div>
+        </li>
+        <li><img src="http://img2.imgtn.bdimg.com/it/u=2546717774,3910079056&fm=200&gp=0.jpg">
+            <div class="describe">Image Caption 2</div></li>
+        <li><img src="http://img2.imgtn.bdimg.com/it/u=2546717774,3910079056&fm=200&gp=0.jpg">
+            <div class="describe">Image Caption 3</div></li>
+        <li><img src="http://img2.imgtn.bdimg.com/it/u=2546717774,3910079056&fm=200&gp=0.jpg">
+            <div class="describe">Image Caption 4</div></li>
+        
+        <li><img src="http://img2.imgtn.bdimg.com/it/u=2546717774,3910079056&fm=200&gp=0.jpg">
+            <div class="describe">Image Caption 5</div></li>
+        <li><img src="http://img2.imgtn.bdimg.com/it/u=2546717774,3910079056&fm=200&gp=0.jpg">
+            <div class="describe">Image Caption 6</div></li>
+        <li><img src="http://img2.imgtn.bdimg.com/it/u=2546717774,3910079056&fm=200&gp=0.jpg">
+            <div class="describe">Image Caption 7</div></li>
+        <li><img src="http://img2.imgtn.bdimg.com/it/u=2546717774,3910079056&fm=200&gp=0.jpg">
+            <div class="describe">Image Caption 8</div></li>
+        
+        <li><img src="http://img2.imgtn.bdimg.com/it/u=2546717774,3910079056&fm=200&gp=0.jpg">
+            <div class="describe">Image Caption 9</div></li>
+        <li><img src="http://img2.imgtn.bdimg.com/it/u=2546717774,3910079056&fm=200&gp=0.jpg">
+            <div class="describe">Image Caption 10</div></li>
+        <li><img src="http://img2.imgtn.bdimg.com/it/u=2546717774,3910079056&fm=200&gp=0.jpg">
+            <div class="describe">Image Caption 11</div></li>
+        <li><img src="http://img2.imgtn.bdimg.com/it/u=2546717774,3910079056&fm=200&gp=0.jpg">
+            <div class="describe">Image Caption 12</div></li>
+      </ul>
+    </div>
+</body>
+</html>
